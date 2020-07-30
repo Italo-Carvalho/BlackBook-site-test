@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="../style/style.css" type="text/css">
+<title>Login e Cadastro
+</title>
+    <link rel="icon" href="../imagens/favicon.ico">
+    <style>
+      .content{
+  width: 300px;
+  min-height: 300px;    
+  margin: -2px auto;
+  position: relative;  
+  
+}
+
+
+
+
+
+::-webkit-input-placeholder  {
+  color: gray;
+  font-style: italic;
+}
+ 
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #C7B1F8;
+  font-style: italic;
+}
+input {
+  outline: none;
+
+}
+ 
+
+input:not([type="checkbox"]){
+  width: 90%;
+  margin-top: 1px;
+  padding: 10px;   
+  
+  
+}
+ 
+
+input[type="submit"]{
+  width: 100%;
+  cursor: pointer;  
+  background: red;
+  padding: 5px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+ 
+
+}
+ 
+
+input[type="submit"]:hover{
+  background: black;
+}
+#cadastro, 
+#login{
+  
+  position: absolute;
+  top: 80px;
+  width: 90%;   
+  padding: 10px 10% 10px 10%;
+  margin: 0 0 35px 0;
+  background-color: none;
+  border: none}
+    </style>
+</head>
+<body>
+
+    <div class="topbox">
+        <h1 >Blackbook</h1>
+        </div>
+        <div class="rgb"></div>
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src='../imagens/menu.png'></label>
+            <div class="barra">
+            <nav>
+                <a href="/"><div class="link">Home</div></a>
+                <a href="../cadastro/index.html"><div class="link">Login</div></a>
+                <a href="https://twitter.com/Euodeio_bot"><div class="link">teste</div></a>
+                <a href="../sobre/index.html"><div class="link">Sobre</div></a>
+            </nav>
+
+
+    </div>
+    <div class="container" >
+    <div class="content">      
+      <!--LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1 style=" font-size: 30px;color: white;padding: 2px 0 10px 0;font-family: FonteMenu;font-weight: bold;text-align: left;padding-bottom: 20px;">Login</h1> 
+          <p> 
+            <label for="nome_login">Nome</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="E-mail"/>
+          </p>
+          <p> 
+            <label for="email_login">E-mail</label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="Senha"/> 
+          </p>
+          <p style="color: #C7B1F8;"> 
+            <input type="checkbox" name="sempre permanecer conectado"  id="sempre permanecer conectado" value="" /> 
+            <label for="sempre permanecer conectado" >Sempre permanecer conectado</label>
+          </p>
+          <p> 
+            <input type="submit" value="Entrar" /> 
+          </p>
+          <p class="link" >
+            Ainda não possui conta?
+            <a href="#paracadastro">Cadastrar</a>
+          </p>
+        </form>
+      </div>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
